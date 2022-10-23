@@ -20,7 +20,7 @@ const Footer = () => {
     <>
       <VStack mb={20}>
         <Container maxW="550px">
-          <Text fontSize="2xl">#Liked what you saw?</Text>
+          <Text fontSize="2xl">Liked what you saw?</Text>
           <Link href="https://wa.me/+966581298806" isExternal>
             <Text fontSize="1xl">😁 Say Hi</Text>
           </Link>

@@ -34,7 +34,7 @@ const Projects = () => {
   return (
     <>
       <SimpleGrid columns={2} spacing={1}>
-        <Box  height={['200px',"300px"]}>
+        <Box height={['200px', '300px']}>
           <Link
             href="https://khaled-m1.github.io/tabayan-api-1.2/
 "
@@ -43,7 +43,7 @@ const Projects = () => {
             <Image src={p1} />
           </Link>
         </Box>
-        <Box height={['200px',"300px"]}>
+        <Box height={['200px', '300px']}>
           <Link
             href="https://peaceful-dusk-21d910.netlify.app/
 "
@@ -52,68 +52,68 @@ const Projects = () => {
             <Image src={p2} />
           </Link>
         </Box>
-        <Box height={['200px',"300px"]}>
+        <Box height={['200px', '300px']}>
           <Link href="https://mirrorvana.netlify.app" isExternal>
             <Image src={p3} />
           </Link>
         </Box>
-        <Box height={['200px',"300px"]}>
+        <Box height={['200px', '300px']}>
           <Link href="https://rococo-gaufre-9c482c.netlify.app/" isExternal>
             <Image src={p4} />
           </Link>
         </Box>
-        <Box height={['200px',"300px"]}>
+        <Box height={['200px', '300px']}>
           <Link href="https://lens.sa/" isExternal>
             <Image src={p5} />
           </Link>
         </Box>
-        <Box height={['200px',"300px"]}>
+        <Box height={['200px', '300px']}>
           <Link href="http://prowolves.com/" isExternal>
             <Image src={p6} />
           </Link>
         </Box>
-        <Box height={['200px',"300px"]}>
+        <Box height={['200px', '300px']}>
           <Link href="https://ans-cam.com/" isExternal>
             <Image src={p7} />
           </Link>
         </Box>
-        <Box height={['200px',"300px"]}>
+        <Box height={['200px', '300px']}>
           <Link href="https://tarjim.netlify.app/" isExternal>
             <Image src={p8} />
           </Link>
         </Box>
-        <Box  height={['160px',"245px"]}>
+        <Box height={['160px', '245px']}>
           <Link href="http://ahmadrodain.com/" isExternal>
             <Image src={p9} />
           </Link>
         </Box>
-        <Box height={['160px',"245px"]}>
-          <Link href="#" isExternal>
+        <Box height={['160px', '245px']}>
+          <Link isExternal>
             <Image src={p10} />
           </Link>
         </Box>
 
-        <Box height={['160px',"245px"]}>
-          <Link href="#" isExternal>
+        <Box height={['160px', '245px']}>
+          <Link isExternal>
             <Image src={p11} />
           </Link>
         </Box>
-        <Box height={['160px',"245px"]}>
+        <Box height={['160px', '245px']}>
           <Link href="https://m-alnamr.com/" isExternal>
             <Image src={p12} />
           </Link>
         </Box>
-        <Box height={['160px',"245px"]}>
+        <Box height={['160px', '245px']}>
           <Link href="http://baligh-alzamar.com/" isExternal>
             <Image src={p13} />
           </Link>
         </Box>
-        <Box height={['160px',"245px"]}>
-          <Link href="#" isExternal>
+        <Box height={['160px', '245px']}>
+          <Link isExternal>
             <Image src={p14} />
           </Link>
         </Box>
-        <Box height={['160px',"245px"]}>
+        <Box height={['160px', '245px']}>
           <Link
             href="http://eab.sa/
 "
@@ -122,8 +122,8 @@ const Projects = () => {
             <Image src={p15} />
           </Link>
         </Box>
-        <Box height={['160px',"245px"]}>
-          <Link href="#" isExternal>
+        <Box height={['160px', '245px']}>
+          <Link isExternal>
             <Image src={p16} />
           </Link>
         </Box>

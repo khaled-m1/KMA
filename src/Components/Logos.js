@@ -44,71 +44,73 @@ import logw7 from '../Img/Logos/emd2.png';
 import logw8 from '../Img/Logos/tarj2.png';
 import logw9 from '../Img/Logos/num2.png';
 import logw10 from '../Img/Logos/ahmed2.png';
+import logow11 from '../Img/Logos/alflaj.png';
+import logow12 from '../Img/Logos/vibW.png';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 const Logos = () => {
   return (
     <>
       <SimpleGrid columns={3} spacing={1}>
-        <Box height="150px">
+        <Box height="100px">
           <Image src={useColorModeValue(logo1, logw1)} />
         </Box>
 
-        <Box height="150px">
-          <Image src={logo2} />
+        <Box height="100px">
+          <Image src={useColorModeValue(logo2, logow12)} />
         </Box>
-        <Box height="150px">
+        <Box height="100px">
           <Image src={useColorModeValue(logo3, logw2)} />
         </Box>
 
-        <Box height="150px">
+        <Box height="100px">
           <Image src={logo4} />
         </Box>
-        <Box height="150px">
+        <Box height="100px">
           <Image src={useColorModeValue(logo5, logw3)} />
         </Box>
-        <Box height="150px">
+        <Box height="100px">
           <Image src={useColorModeValue(logo6, logw4)} />
         </Box>
-        <Box height="150px">
+        <Box height="100px">
           <Image src={logo7} />
         </Box>
-        <Box height="150px">
+        <Box height="100px">
           <Image src={logo8} />
         </Box>
-        <Box height="150px">
+        {/* <Box height="100px">
           <Image src={logo9} />
-        </Box>
-        <Box height="150px">
+        </Box> */}
+        <Box height="100px">
           <Image src={useColorModeValue(logo10, logw5)} />
         </Box>
-        <Box height="150px">
+        <Box height="100px">
           <Image src={logo11} />
         </Box>
         {/*  */}
-        <Box height="150px">
+        <Box height="100px">
           <Image src={useColorModeValue(logo12, logw6)} />
         </Box>
-        <Box height="150px">
+        <Box height="100px">
           <Image src={useColorModeValue(logo13, logw7)} />
         </Box>
-        <Box height="150px">
+        <Box height="100px">
           <Image src={useColorModeValue(logo14, logw8)} />
         </Box>
-        <Box height="150px">
+        <Box height="100px">
           <Image src={useColorModeValue(logo15, logw9)} />
         </Box>
-        <Box height="150px">
+        <Box height="100px">
           <Image src={useColorModeValue(logo16, logw10)} />
         </Box>
-        <Box height="150px">
+        <Box height="100px">
           <Image src={logo17} />
         </Box>
-        <Box height="150px">
+        <Box height="100px">
           <Image src={logo18} />
         </Box>
-        <Box height="150px">
-          <Image src={logo19} />
+        <Box height="100px">
+          <Image src={useColorModeValue(logo19, logow11)} />
         </Box>
 
         {/*  */}
