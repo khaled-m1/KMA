@@ -1,8 +1,6 @@
 import React from 'react';
 import {
   Text,
-  Box,
-  Image,
   Container,
   VStack,
   Tabs,
@@ -10,16 +8,18 @@ import {
   TabPanels,
   Tab,
   TabPanel,
-  SimpleGrid,
+  Icon,
+  HStack,
+  Box,
 } from '@chakra-ui/react';
+import { FaConnectdevelop } from 'react-icons/fa';
 import Logos from './Logos';
 import Projects from './Projects';
-import Media from './Media';
 
 const Gallery = () => {
   return (
     <>
-      <VStack mt={['10','20']}>
+      <VStack mt={['10', '20']}>
         <Container maxW="550px">
           <Text fontSize="2xl" fontWeight={'bold'}>
             #🎧
@@ -27,7 +27,16 @@ const Gallery = () => {
           <Tabs>
             <TabList>
               <Tab>Work with</Tab>
-              <Tab>Projects</Tab>
+              <Tab>
+                <HStack spacing="0px">
+                  <Box w="60px"  >
+                    Projects
+                  </Box>
+                  <Box >
+                    <Icon as={FaConnectdevelop} mt={'8px !important'}  w={['4', '4']} h={['8', '8']} />
+                  </Box>
+                </HStack>
+              </Tab>
               {/* <Tab>Contact</Tab> */}
             </TabList>
 

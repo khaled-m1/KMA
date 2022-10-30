@@ -1,14 +1,7 @@
 import React from 'react';
 import {
-  Text,
   Box,
   Image,
-  Container,
-  VStack,
-  Tabs,
-  TabList,
-  TabPanels,
-  Tab,
   Link,
   SimpleGrid,
 } from '@chakra-ui/react';
@@ -38,7 +31,7 @@ const Projects = () => {
           <Link
             href="https://khaled-m1.github.io/tabayan-api-1.2/
 "
-            isExternal
+            
           >
             <Image src={p1} />
           </Link>
@@ -47,69 +40,69 @@ const Projects = () => {
           <Link
             href="https://peaceful-dusk-21d910.netlify.app/
 "
-            isExternal
+             
           >
             <Image src={p2} />
           </Link>
         </Box>
         <Box height={['200px', '300px']}>
-          <Link href="https://mirrorvana.netlify.app" isExternal>
+          <Link href="https://mirrorvana.netlify.app"  >
             <Image src={p3} />
           </Link>
         </Box>
         <Box height={['200px', '300px']}>
-          <Link href="https://rococo-gaufre-9c482c.netlify.app/" isExternal>
+          <Link href="https://rococo-gaufre-9c482c.netlify.app/"  >
             <Image src={p4} />
           </Link>
         </Box>
         <Box height={['200px', '300px']}>
-          <Link href="https://lens.sa/" isExternal>
+          <Link href="https://lens.sa/"  >
             <Image src={p5} />
           </Link>
         </Box>
         <Box height={['200px', '300px']}>
-          <Link href="http://prowolves.com/" isExternal>
+          <Link href="http://prowolves.com/"  >
             <Image src={p6} />
           </Link>
         </Box>
         <Box height={['200px', '300px']}>
-          <Link href="https://ans-cam.com/" isExternal>
+          <Link href="https://ans-cam.com/"  >
             <Image src={p7} />
           </Link>
         </Box>
         <Box height={['200px', '300px']}>
-          <Link href="https://tarjim.netlify.app/" isExternal>
+          <Link href="https://tarjim.netlify.app/"  >
             <Image src={p8} />
           </Link>
         </Box>
         <Box height={['160px', '245px']}>
-          <Link href="http://ahmadrodain.com/" isExternal>
+          <Link href="http://ahmadrodain.com/"  >
             <Image src={p9} />
           </Link>
         </Box>
         <Box height={['160px', '245px']}>
-          <Link isExternal>
+          <Link  >
             <Image src={p10} />
           </Link>
         </Box>
 
         <Box height={['160px', '245px']}>
-          <Link isExternal>
+          <Link  >
             <Image src={p11} />
           </Link>
         </Box>
         <Box height={['160px', '245px']}>
-          <Link href="https://m-alnamr.com/" isExternal>
+          <Link href="https://m-alnamr.com/"  >
             <Image src={p12} />
           </Link>
         </Box>
         <Box height={['160px', '245px']}>
-          <Link href="http://baligh-alzamar.com/" isExternal>
+          <Link href="http://baligh-alzamar.com/" >
             <Image src={p13} />
           </Link>
         </Box>
         <Box height={['160px', '245px']}>
-          <Link isExternal>
+          <Link >
             <Image src={p14} />
           </Link>
         </Box>
@@ -117,13 +110,13 @@ const Projects = () => {
           <Link
             href="http://eab.sa/
 "
-            isExternal
+            
           >
             <Image src={p15} />
           </Link>
         </Box>
         <Box height={['160px', '245px']}>
-          <Link isExternal>
+          <Link >
             <Image src={p16} />
           </Link>
         </Box>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { SimpleGrid, Box, Image, Container, VStack } from '@chakra-ui/react';
-import hdr1 from '../Img/hde2.png';
 import MainImage from '../Img/MainImage.PNG';
 const Header = () => {
   return (

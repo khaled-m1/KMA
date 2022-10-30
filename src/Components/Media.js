@@ -1,23 +1,8 @@
 import React from 'react';
-import {
-  Text,
-  Box,
-  Image,
-  Container,
-  VStack,
-  Tabs,
-  TabList,
-  TabPanels,
-  Tab,
-  TabPanel,
-  SimpleGrid,
-  useColorModeValue,
-  Link,
-} from '@chakra-ui/react';
+import { Box, SimpleGrid,Text } from '@chakra-ui/react';
 const Media = () => {
   return (
     <>
-      {' '}
       <SimpleGrid columns={2} spacing={1}>
         {/* insta */}
         <Box height="150px">
@@ -313,7 +298,21 @@ const Media = () => {
         </Box>
         {/* twitter */}
         <Box height="150px">
-        <blockquote class="twitter-tweet"><p >الحمدالله ❤️ <a href="https://t.co/Pix7OWSaih">pic.twitter.com/Pix7OWSaih</a></p>&mdash; خالد المجاهد | مبرمج 🖥 (@iKhaledMojahed) <a href="https://twitter.com/iKhaledMojahed/status/1575262918081396738?ref_src=twsrc%5Etfw">September 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <blockquote class="twitter-tweet">
+            <p>
+              الحمدالله ❤️{' '}
+              <a href="https://t.co/Pix7OWSaih">pic.twitter.com/Pix7OWSaih</a>
+            </p>
+            &mdash; خالد المجاهد | مبرمج 🖥 (@iKhaledMojahed){' '}
+            <a href="https://twitter.com/iKhaledMojahed/status/1575262918081396738?ref_src=twsrc%5Etfw">
+              September 28, 2022
+            </a>
+          </blockquote>{' '}
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
         </Box>
       </SimpleGrid>
     </>

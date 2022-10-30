@@ -1,13 +1,11 @@
-import { ReactNode } from 'react';
+
 import {
   Box,
   Flex,
   Avatar,
-  Link,
   Button,
   Menu,
   MenuButton,
-  useDisclosure,
   useColorModeValue,
   Stack,
   useColorMode,
@@ -18,24 +16,10 @@ import smallImage from '../Img/navlogo.PNG';
 import WhiteLogo from '../Img/White.png';
 import MainLogo from '../Img/Black.png';
 
-const NavLink = ({ children }) => (
-  <Link
-    px={2}
-    py={1}
-    rounded={'md'}
-    _hover={{
-      textDecoration: 'none',
-      bg: useColorModeValue('gray.200', 'gray.700'),
-    }}
-    href={'#'}
-  >
-    {children}
-  </Link>
-);
+
 
 export default function Nav() {
   const { colorMode, toggleColorMode } = useColorMode();
-  const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
       <Box px={4}>

@@ -1,18 +1,9 @@
 import React from 'react';
 import {
-  Text,
   Box,
   Image,
-  Container,
-  VStack,
-  Tabs,
-  TabList,
-  TabPanels,
-  Tab,
-  TabPanel,
   SimpleGrid,
   useColorModeValue,
-  Link,
 } from '@chakra-ui/react';
 import logo1 from '../Img/Logos/emcrey.png';
 import logo2 from '../Img/Logos/vib.png';
@@ -22,7 +13,7 @@ import logo5 from '../Img/Logos/lens1.png';
 import logo6 from '../Img/Logos/safcsp.png';
 import logo7 from '../Img/Logos/1.4.png';
 import logo8 from '../Img/Logos/1.10.png';
-import logo9 from '../Img/Logos/1.2.png';
+// import logo9 from '../Img/Logos/1.2.png';
 import logo10 from '../Img/Logos/LogoPro.png';
 import logo11 from '../Img/Logos/1.3.png';
 import logo12 from '../Img/Logos/anaslogoColor.png';
@@ -46,12 +37,12 @@ import logw9 from '../Img/Logos/num2.png';
 import logw10 from '../Img/Logos/ahmed2.png';
 import logow11 from '../Img/Logos/alflaj.png';
 import logow12 from '../Img/Logos/vibW.png';
-import { ExternalLinkIcon } from '@chakra-ui/icons';
+
 
 const Logos = () => {
   return (
     <>
-      <SimpleGrid columns={3} spacing={1}>
+      <SimpleGrid columns={3} spacing={[1,10]}>
         <Box height="100px">
           <Image src={useColorModeValue(logo1, logw1)} />
         </Box>
