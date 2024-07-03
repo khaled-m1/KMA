@@ -41,7 +41,7 @@ const About = () => {
             <Link href="https://www.linkedin.com/in/khaled-alanzi/" isExternal>
               <Icon as={FaLinkedin} w={['8', '8']} h={['8', '8']} />
             </Link>
-            <Link href="https://wa.me/+966581298806" isExternal>
+            <Link href="https://wa.me/+966531293341" isExternal>
               <Icon as={FaWhatsapp} w={['8', '8']} h={['8', '8']} />
             </Link>
             <Link href="https://www.instagram.com/ikhaledmojahed/" isExternal>

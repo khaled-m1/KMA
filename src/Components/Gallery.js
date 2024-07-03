@@ -26,8 +26,8 @@ const Gallery = () => {
           </Text>
           <Tabs>
             <TabList>
-              <Tab>Work with</Tab>
-              <Tab>
+              <Tab as='b'>Work with</Tab>
+              <Tab as='b'>
                 <HStack spacing="0px">
                   <Box w="60px"  >
                     Projects
