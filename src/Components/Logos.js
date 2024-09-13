@@ -5,103 +5,129 @@ import {
   SimpleGrid,
   useColorModeValue,
 } from '@chakra-ui/react';
-import logo1 from '../Img/Logos/emcrey.png';
-import logo2 from '../Img/Logos/vib.png';
-import logo3 from '../Img/Logos/doo1.png';
-import logo4 from '../Img/Logos/1.png';
-import logo5 from '../Img/Logos/lens1.png';
-import logo6 from '../Img/Logos/safcsp.png';
-import logo7 from '../Img/Logos/1.4.png';
-import logo8 from '../Img/Logos/1.10.png';
-// import logo9 from '../Img/Logos/1.2.png';
-import logo10 from '../Img/Logos/LogoPro.png';
-import logo11 from '../Img/Logos/1.3.png';
-import logo12 from '../Img/Logos/anaslogoColor.png';
-import logo13 from '../Img/Logos/1.8.png';
-import logo14 from '../Img/Logos/tarjim.png';
-import logo15 from '../Img/Logos/1.5.png';
-import logo16 from '../Img/Logos/1.7.png';
-import logo17 from '../Img/Logos/1.6.png';
-import logo18 from '../Img/Logos/b1.png';
-import logo19 from '../Img/Logos/1.9.png';
-// Light
-import logw1 from '../Img/Logos/emcray-w.png';
-import logw2 from '../Img/Logos/doo2.png';
-import logw3 from '../Img/Logos/lens2.png';
-import logw4 from '../Img/Logos/sap2.png';
-import logw5 from '../Img/Logos/LogoProWhite.png';
-import logw6 from '../Img/Logos/anaslogoWhite.png';
-import logw7 from '../Img/Logos/emd2.png';
-import logw8 from '../Img/Logos/tarj2.png';
-import logw9 from '../Img/Logos/num2.png';
-import logw10 from '../Img/Logos/ahmed2.png';
-import logow11 from '../Img/Logos/alflaj.png';
-import logow12 from '../Img/Logos/vibW.png';
+import TSP from '../Img/Logos/1.png';
+import NOB from '../Img/Logos/2.png';
+import LOW from '../Img/Logos/3.png';
+import AFLAJ from '../Img/Logos/4.png';
+import FIVECOLORS from '../Img/Logos/5.png';
+import LENS from '../Img/Logos/6.png';
+import EROR from '../Img/Logos/7.png';
+import TARJEM from '../Img/Logos/8.png';
+import SAUDIGROUP from '../Img/Logos/9.png';
+import ALI from '../Img/Logos/10.png';
+import DOO from '../Img/Logos/11.png';
+import EMCREY from '../Img/Logos/12.png';
+import NAFUD from '../Img/Logos/13.png';
+import TUDER from '../Img/Logos/14.png';
+import RAJB from '../Img/Logos/15.png';
+import SAUDIPAYEMNT from '../Img/Logos/16.png';
+import BSFB from '../Img/Logos/17.png';
+import MASHA from '../Img/Logos/18.png';
+import WOLVES from '../Img/Logos/19.png';
+import VIBELAB from '../Img/Logos/20.png';
 
+
+
+
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-180QLRF8NM'); 
 
 const Logos = () => {
+  const trackClick = (appName) => {
+    console.log(`Tracking click: ${appName}`);
+    ReactGA.event({
+      category: 'User',
+      action: `Clicked on ${appName}`
+    });
+  };
   return (
     <>
       <SimpleGrid columns={3} spacing={[1,10]}>
-        <Box height="100px">
-          <Image src={useColorModeValue(logo1, logw1)} />
+        {/* 1 */}
+        <Box height="100px" onClick={() => trackClick('Clicked EMCREY logo')}>
+          <Image src={EMCREY} />
+        </Box>
+         {/* 2 */}
+        <Box height="100px" onClick={() => trackClick('Clicked SAUDIPAYEMNT logo')}>
+          <Image src={SAUDIPAYEMNT} />
+        </Box>
+           {/* 3 */}
+        <Box height="100px" onClick={() => trackClick('Clicked BSFB logo')}>
+          <Image src={BSFB} />
+        </Box>
+         {/* 4 */}
+        <Box height="100px" onClick={() => trackClick('Clicked SAUDIGROUP logo')}>
+          <Image src={SAUDIGROUP} />
+        </Box>
+    
+            {/* 5 */}
+        <Box height="100px" onClick={() => trackClick('Clicked RAJB logo')}>
+          <Image src={RAJB} />
+        </Box>
+         {/* 6 */}
+        <Box height="100px" onClick={() => trackClick('Clicked TUDER logo')}>
+          <Image src={TUDER} />
+        </Box>
+           {/* 7 */}
+        <Box height="100px" onClick={() => trackClick('Clicked DOO logo')}>
+          <Image src={DOO} />
+        </Box>
+         {/* 8 */}
+        <Box height="100px" onClick={() => trackClick('Clicked LENS logo')}>
+          <Image src={LENS} />
         </Box>
 
-        <Box height="100px">
-          <Image src={useColorModeValue(logo2, logow12)} />
+
+        {/* 9 */}
+        <Box height="100px" onClick={() => trackClick('Clicked FIVECOLORS logo')}>
+          <Image src={FIVECOLORS} />
         </Box>
-        <Box height="100px">
-          <Image src={useColorModeValue(logo3, logw2)} />
+         {/* 10 */}
+        <Box height="100px" onClick={() => trackClick('Clicked NOB logo')}>
+          <Image src={NOB} />
+        </Box>
+           {/* 11 */}
+        <Box height="100px" onClick={() => trackClick('Clicked TSP logo')}>
+          <Image src={TSP} />
+        </Box>
+         {/* 12 */}
+        <Box height="100px" onClick={() => trackClick('Clicked MASHA logo')}>
+          <Image src={MASHA} />
+        </Box>
+    
+            {/* 13 */}
+        <Box height="100px" onClick={() => trackClick('Clicked NAFUD logo')}>
+          <Image src={NAFUD} />
+        </Box>
+         {/* 14 */}
+        <Box height="100px" onClick={() => trackClick('Clicked EROR logo')}>
+          <Image src={EROR} />
+        </Box>
+           {/* 15 */}
+        <Box height="100px" onClick={() => trackClick('Clicked LOW logo')}>
+          <Image src={LOW} />
+        </Box>
+         {/* 16 */}
+        <Box height="100px" onClick={() => trackClick('Clicked AFLAJ logo')}>
+          <Image src={AFLAJ} />
         </Box>
 
-        <Box height="100px">
-          <Image src={logo4} />
+                 {/* 17 */}
+       <Box height="100px" onClick={() => trackClick('Clicked ALI-20store logo')}>
+          <Image src={ALI} />
         </Box>
-        <Box height="100px">
-          <Image src={useColorModeValue(logo5, logw3)} />
+    
+            {/* 18 */}
+        <Box height="100px" onClick={() => trackClick('Clicked WOLVES logo')}>
+          <Image src={WOLVES} />
         </Box>
-        <Box height="100px">
-          <Image src={useColorModeValue(logo6, logw4)} />
+         {/* 19 */}
+        <Box height="100px" onClick={() => trackClick('Clicked VIBELAB logo')}>
+          <Image src={VIBELAB} />
         </Box>
-        <Box height="100px">
-          <Image src={logo7} />
-        </Box>
-        <Box height="100px">
-          <Image src={logo8} />
-        </Box>
-        {/* <Box height="100px">
-          <Image src={logo9} />
-        </Box> */}
-        <Box height="100px">
-          <Image src={useColorModeValue(logo10, logw5)} />
-        </Box>
-        <Box height="100px">
-          <Image src={logo11} />
-        </Box>
-        {/*  */}
-        <Box height="100px">
-          <Image src={useColorModeValue(logo12, logw6)} />
-        </Box>
-        <Box height="100px">
-          <Image src={useColorModeValue(logo13, logw7)} />
-        </Box>
-        <Box height="100px">
-          <Image src={useColorModeValue(logo14, logw8)} />
-        </Box>
-        <Box height="100px">
-          <Image src={useColorModeValue(logo15, logw9)} />
-        </Box>
-        <Box height="100px">
-          <Image src={useColorModeValue(logo16, logw10)} />
-        </Box>
-        <Box height="100px">
-          <Image src={logo17} />
-        </Box>
-        <Box height="100px">
-          <Image src={logo18} />
-        </Box>
-        <Box height="100px">
-          <Image src={useColorModeValue(logo19, logow11)} />
+           {/* 20 */}
+        <Box height="100px" onClick={() => trackClick('Clicked TARJEM logo')}>
+          <Image src={TARJEM} />
         </Box>
 
         {/*  */}

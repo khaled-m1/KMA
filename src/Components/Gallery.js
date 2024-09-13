@@ -15,8 +15,17 @@ import {
 import { FaConnectdevelop } from 'react-icons/fa';
 import Logos from './Logos';
 import Projects from './Projects';
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-180QLRF8NM'); 
 
 const Gallery = () => {
+  const trackClick = (appName) => {
+    console.log(`Tracking click: ${appName}`);
+    ReactGA.event({
+      category: 'User',
+      action: `Clicked on ${appName}`
+    });
+  };
   return (
     <>
       <VStack mt={['10', '20']}>
@@ -24,16 +33,16 @@ const Gallery = () => {
           <Text fontSize="2xl" fontWeight={'bold'}>
             #🎧
           </Text>
-          <Tabs>
-            <TabList>
-              <Tab as='b'>Work with</Tab>
-              <Tab as='b'>
-                <HStack spacing="0px">
+          <Tabs >
+            <TabList >
+            <Tab as='b' border='0.1px solid gray' borderRadius="md" onClick={() => trackClick('Clicked Work with')}>Work with</Tab>
+              <Tab as='b' border='0.1px solid gray' borderRadius="md" ml='5px' onClick={() => trackClick('Clicked Projects')}>
+                <HStack spacing="0px" >
                   <Box w="60px"  >
                     Projects
                   </Box>
                   <Box >
-                    <Icon as={FaConnectdevelop} mt={'8px !important'}  w={['4', '4']} h={['8', '8']} />
+                    {/* <Icon as={FaConnectdevelop} mt={'8px !important'}  w={['4', '4']} h={['8', '8']} /> */}
                   </Box>
                 </HStack>
               </Tab>
