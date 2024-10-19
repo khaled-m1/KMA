@@ -37,11 +37,10 @@ const About = () => {
           <hr />
 
           <Text fontSize="2xl" mt={4}>
-            Web Developer, interested in project management and creative works,
-            I will help you in developing and building Websites
+          mada Application Support Analyst at eMcREY, interested in project management and effective communication.
           </Text>
           <Text fontSize="1xl" mt={4}>
-            Skills: C# / JAVA / Spring boot / .NET / SQL / React js / ChakraUI
+            Skills: SQL • Jira • IBM AIX • Microsoft Excel
           </Text>
           <br />
           <Text fontSize="2xl">Keep it simple.</Text>

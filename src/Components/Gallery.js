@@ -28,23 +28,16 @@ const Gallery = () => {
   };
   return (
     <>
-      <VStack mt={['10', '20']}>
+      <VStack mt={['10', '10']}>
         <Container maxW="550px">
           <Text fontSize="2xl" fontWeight={'bold'}>
             #🎧
           </Text>
           <Tabs >
-            <TabList >
-            <Tab as='b' border='0.1px solid gray' borderRadius="md" onClick={() => trackClick('Clicked Work with')}>Work with</Tab>
-              <Tab as='b' border='0.1px solid gray' borderRadius="md" ml='5px' onClick={() => trackClick('Clicked Projects')}>
-                <HStack spacing="0px" >
-                  <Box w="60px"  >
-                    Projects
-                  </Box>
-                  <Box >
-                    {/* <Icon as={FaConnectdevelop} mt={'8px !important'}  w={['4', '4']} h={['8', '8']} /> */}
-                  </Box>
-                </HStack>
+            <TabList>
+            <Tab cursor='pointer' as='b' border='0.1px solid gray' borderRadius="md" onClick={() => trackClick('Clicked Work with')}>Work with</Tab>
+              <Tab cursor='pointer' as='b' border='0.1px solid gray' borderRadius="md" ml='5px' onClick={() => trackClick('Clicked Projects')}>
+              Projects
               </Tab>
               {/* <Tab>Contact</Tab> */}
             </TabList>
@@ -58,10 +51,6 @@ const Gallery = () => {
               <TabPanel>
                 <Projects />
               </TabPanel>
-              {/* media */}
-              {/* <TabPanel>
-                <Media />
-              </TabPanel> */}
             </TabPanels>
           </Tabs>
         </Container>
