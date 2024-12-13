@@ -16,7 +16,7 @@ import {
   FaEnvelope,
 } from 'react-icons/fa';
 import ReactGA from 'react-ga';
-ReactGA.initialize('G-180QLRF8NM'); 
+ReactGA.initialize('G-180QLRF8NM');
 
 const About = () => {
   const trackClick = (action) => {
@@ -31,19 +31,14 @@ const About = () => {
     <>
       <VStack mt={1}>
         <Container maxW="550px">
-          <Text fontSize="2xl">Hey i'm</Text>
+          <Text fontSize="2xl">Salam, I'm</Text>
           <Text fontSize="4xl">Khaled Mojahid</Text>
 
           <hr />
 
           <Text fontSize="2xl" mt={4}>
-          mada Application Support Analyst at eMcREY, interested in project management and effective communication.
+            mada Application Support Analyst at eMcREY, interested in project management and effective communication.
           </Text>
-          <Text fontSize="1xl" mt={4}>
-            Skills: SQL • Jira • IBM AIX • Microsoft Excel
-          </Text>
-          <br />
-          <Text fontSize="2xl">Keep it simple.</Text>
 
           <ButtonGroup spacing="4" mt={4}>
             <Link href="https://github.com/khaled-m1" isExternal onClick={() => trackClick('Clicked Github')}>
@@ -55,14 +50,13 @@ const About = () => {
             <Link href="https://wa.me/+966531293341" isExternal onClick={() => trackClick('Clicked whatsapp')}>
               <Icon as={FaWhatsapp} w={['8', '8']} h={['8', '8']} />
             </Link>
-            <Link href="https://www.instagram.com/ikhaledmojahed/" isExternal onClick={() => trackClick('Clicked Instagram')}>
+            {/* <Link href="https://www.instagram.com/ikhaledmojahed/" isExternal onClick={() => trackClick('Clicked Instagram')}>
               <Icon as={FaInstagram} w={['8', '8']} h={['8', '8']} />
             </Link>
 
             <Link href="https://x.com/iKhaledMojahed" isExternal onClick={() => trackClick('Clicked X')}>
               <Icon as={FaTwitter} w={['8', '8']} h={['8', '8']} />
-            </Link>
-
+            </Link> */}
             <Link href="mailto:khaled.mujahid@outlook.sa" isExternal onClick={() => trackClick('Clicked email')}>
               <Icon as={FaEnvelope} w={['8', '8']} h={['8', '8']} />
             </Link>

@@ -12,7 +12,6 @@ import {
   Image,
 } from '@chakra-ui/react';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
-import smallImage from '../Img/navlogo.PNG';
 import WhiteLogo from '../Img/White.png';
 import MainLogo from '../Img/Black.png';
 import ReactGA from 'react-ga';
@@ -44,18 +43,6 @@ export default function Nav() {
               <Button onClick={toggleColorMode} >
                 {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
               </Button>
-
-              <Menu >
-                <MenuButton
-                  as={Button}
-                  rounded={'full'}
-                  variant={'link'}
-                  cursor={'pointer'}
-                  minW={0}
-                >
-                  <Avatar size={'sm'} src={smallImage} />
-                </MenuButton>
-              </Menu>
             </Stack>
           </Flex>
         </Flex>
